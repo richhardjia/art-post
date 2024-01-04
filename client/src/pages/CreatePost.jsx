@@ -130,7 +130,9 @@ const CreatePost = () => {
                             <Loader/>
                         </div>
                     )}
+                    
                 </div>
+                
             </div>
             <div className='mt-5 flex gap-5'>
                 <button 

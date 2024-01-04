@@ -22,8 +22,8 @@ router.route('/').post(async (req, res) => {
         };
 
         const response = await axios({
-            url: "https://api-inference.huggingface.co/models/hakurei/waifu-diffusion",
-            method: 'POST',
+            url: "https://api-inference.huggingface.co/models/Pclanglais/Mickey-1928",
+            method: 'POST', 
             headers: {
                 Authorization: `Bearer ${process.env.HF_API_KEY}`,
                 Accept: 'application/json',
